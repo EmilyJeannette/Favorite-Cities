@@ -11,11 +11,8 @@ import UIKit
 class DetailViewController: UIViewController {
     
     @IBOutlet weak var cityTexField: UITextField!
-    
     @IBOutlet weak var stateTextField: UITextField!
-    
     @IBOutlet weak var populationTextField: UITextField!
-    
     @IBOutlet weak var flagView: UIImageView!
     
     var detailItem: City? {
