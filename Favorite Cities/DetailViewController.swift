@@ -20,16 +20,14 @@ class DetailViewController: UIViewController {
             // Update the view.
             configureView()
         }
-        
-   
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
     }
-  
-    }
-
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let city = self.detailItem {
@@ -48,6 +46,6 @@ class DetailViewController: UIViewController {
             city.population = Int(populationTextField.text!)!
         }
     }
-
+    
 }
 
